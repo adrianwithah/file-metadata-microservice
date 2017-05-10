@@ -1,6 +1,12 @@
 <html>
 <body>
-	<form action="/get-file-size" enctype="multipart/form-data" method="post">
+	<h1>File Metadata Microservice</h1>
+	<p>For the freeCodeCamp challenge over at <a href="https://www.freecodecamp.com/challenges/file-metadata-microservice" target="_blank">https://www.freecodecamp.com/challenges/file-metadata-microservice</a></p>
+	<h3>Usage:</h3>
+	<p>Upload a single file and click submit, in order to receive size information on the file</p>
+	<h3>Example Output:</h3>
+	<code>{"size:" 20}</code>
+	<form action="/get-file-size" enctype="multipart/form-data" method="post" style="margin-top:2em">
 		<input type="file" name="upload">
 		<input type="submit">
 	</form>
